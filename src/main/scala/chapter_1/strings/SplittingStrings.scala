@@ -12,4 +12,11 @@ object SplittingStrings extends App {
   "hello world".split(" ")
 
   "hello world".split(' ')
+
+  val prop1 = "Azi e o zi ploioasa"
+  val prop2 = "azi e o zi ploioasa"
+  println(prop1.toUpperCase)
+
+
 }
+
