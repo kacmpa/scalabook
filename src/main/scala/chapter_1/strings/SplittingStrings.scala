@@ -1,22 +1,20 @@
 package chapter_1.strings
 
 object SplittingStrings extends App {
-  "hello world".split(" ")
-  "hello world".split(" ").foreach(println)
+ val x = "hello world".split(" ")
+  println(x)
 
-  val s = "eggs, milk, butter, Coco Puffs"
-  println(s.split(",").map(_.trim))
+  val a = "hello world".split(" ").foreach(println)
 
-  "hello world, this is Al".split("\\s+")
+  val s = "eggs, milk, butter, coco puffs"
+  println(s)
 
-  "hello world".split(" ")
+  val s1 = "eggs, milk, butter, coco puffs".split(",").foreach(println)
 
-  "hello world".split(' ')
+  val s2 = "eggs, milk, butter, coco puffs"
+  println(s2.split(",").map(_.trim))
 
-  val prop1 = "Azi e o zi ploioasa"
-  val prop2 = "azi e o zi ploioasa"
-  println(prop1.toUpperCase)
-
+ val al = "hello world, this is Al".split("\\al")
 
 }
 
