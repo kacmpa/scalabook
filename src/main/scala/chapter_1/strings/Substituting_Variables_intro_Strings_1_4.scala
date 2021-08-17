@@ -18,10 +18,11 @@ object Substituting_Variables_intro_Strings_1_4 extends App {
   //my example
   val name_1 = "Alexandru"
   val name_2 = "Ion"
-  val daca = "pentru a nu fi prost"
+  val daca = "pentru a nu fi rusine"
   val teacher = "de acea domnul"
   println(s"$name_1 vrea sa invete scala $daca,$teacher $name_2 il invata ")
-  val moment = "koncennii"
-  println(s"$name_1 este $moment? ${moment == "koncennii"}")
+  val moment = "krasaw4k"
+  val moment2 = "krasau4ig"
+  println(s"$name_1 este $moment? ${moment == "krasaw4k"}, el este kon4enii? ${moment2 == "kon4enii"}")
 
 }
